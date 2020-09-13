@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav{
+    color: azure;
+}
+.navbar-nav{}
+.navbar-nav li{
+    
+}
+.navbar-nav li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 20px;
+    color: aliceblue;
+}
+.navbar-nav li{
+    position: relative;
+    
+}
+.navbar-nav li ul{
+    position: absolute;
+    width: 200px;
+    left: 0;
+    top: 150%;
+    background-color: rgba(3, 45, 101, 0.87);
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear.3s;
+    border-radius: 5px;
+}
+.navbar-nav li ul li{
+    flex-direction: column;
+    
+}
+.navbar-nav li ul li a{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all linear.4s;
+    text-transform: capitalize;
+}
+.navbar-nav li ul li a:hover {
+    color: darkmagenta;
+    transition: all linear.3s;
+    margin-left: 8px;
+}
+.navbar-nav li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transition: all linear.3s;
+}
+.navbar-nav li a i{
+    font-size: 12px;
+    padding-top: 6px;
+    color: #fff;
+    padding-left: 2px;
+}
+.navbar {
+    background-color: dimgray;
+}
+
+/*banner part css start*/
+.carousel-caption h5{
+    font-size: 40px;
+    color: darkmagenta;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    padding-top: 20px;
+    transition: all linear .4s;
+    font-weight: bold;
+}
+.carousel-caption h5:hover {
+    background-color: darkmagenta;
+    color: #fff;
+    border-radius: 10px;
+    transition: all linear .4s;
+}
+.carousel-caption p{
+    font-size: 18px;
+    color: navy;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    padding-top: 20px;
+    transition: all linear .4s;
+    font-weight: bold;
+}
+.carousel-caption p:hover {
+    background-color: darkmagenta;
+    color: #fff;
+    border-radius: 10px;
+    transition: all linear .4s;
+}
+.carousel-indicators li{
+    height: 15px;
+    width: 15px;
+    background-color: navy;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.carousel-indicators li:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+/*banner part css end*/
+
+/*content part css start*/
+.content{
+    text-align: center;
+    padding-top: 50px;
+}
+.content_con h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #111;
+}
+.content_con p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+.content_about{
+    margin-top: 50px;
+    transition: all linear .3s;
+}
+.content_about:hover {
+    background-color: cadetblue;
+    transition: all linear .3s;
+}
+.content_about i {
+    font-size: 72px;
+    color: red;
+}
+.content_about h4 {
+    font-size: 24px;
+    color: #111;
+    padding-top: 24px;
+    font-weight: bold;
+}
+.content_about p{
+    font-size: 16px;
+    color: rgba(64, 56, 53, 0.57);
+    padding-top: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+/*content part css end*/
+/*gallery part css start*/
+.gallery{
+    background-color: darkcyan;
+    margin-top: 80px;
+    padding-top: 50px;
+    
+}
+.content_m h3{
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #111;
+   padding-bottom: 40px;
+    text-align: center;
+}
+.card-deck{
+    padding-bottom: 30px;
+}
+.card-footer small{
+    background-color: darkmagenta;
+    padding: 12px 18px;
+    color: darkmagenta;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-bottom: 100px;
+}
+.card-footer a{
+    text-decoration: none;
+    color: red;
+    margin-top: 5px;
+    transition: all linear .3s;
+}
+.card-footer small:hover {
+    background-color: darkgreen;
+    border-radius: 5px;
+    transition: all linear .3s;
+    color: cornsilk;
+}
+
+/*gallery part css end*/
+/*footer css start*/
+.footer-part{
+    background-color: rgba(69, 66, 66, 0.69);
+}
+.footer_cont p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: darkmagenta;
+}
+/*footer css end*/
